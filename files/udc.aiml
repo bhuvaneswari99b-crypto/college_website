@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml>
+<aiml version="2.0">
   <category>
-    <pattern>*</pattern>
-    <template>I have no answer for that.</template>
+    <pattern>HELLO</pattern>
+    <template>Hello! How can I help you?</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR NAME</pattern>
+    <template>I am MyChatBot.</template>
   </category>
 </aiml>
